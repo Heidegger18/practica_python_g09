@@ -25,6 +25,6 @@ for i in range(10):
     valor = lista_1[i] ** 2
     lista_cuadrados.append(valor)
 
-#Suma de ambas listas (lista_cuadrados + lista_cubos)
-suma = lista_cuadrados + lista_cubos
-print(suma)
+suma_listas = lista_cubos + lista_cuadrados
+suma_listas.reverse() #Lista inversa
+print(suma_listas)
