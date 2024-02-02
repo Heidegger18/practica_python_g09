@@ -10,3 +10,20 @@ Reglas:
 nuevo.
 - Eliminar el key dni y mostrar el nuevo diccionario.
 """
+
+datos = {}
+
+datos["nombre"] = input("Digite su nombre: ")
+datos["apellidos"] = input("Digite sus apellidos: ")
+datos["edad"] = int(input("Digite su edad: "))
+datos["dni"] = int(input("Digite su dni: "))
+
+valores_diccionario = list(datos.values())
+
+print("Valores del diccionario: {}".format(valores_diccionario))
+
+datos["profesion"] = "Ingeniería de Sistemas"
+
+del(datos["dni"])
+
+print("Mi nuevo diccionario es: {}".format(datos))
