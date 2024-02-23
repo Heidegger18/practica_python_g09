@@ -1,0 +1,9 @@
+Lista de numeros:
+46
+28
+25
+
+Raices cuadradas:
+6.782329983125268
+5.291502622129181
+5.0
